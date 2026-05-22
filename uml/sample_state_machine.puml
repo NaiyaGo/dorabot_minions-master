@@ -1,0 +1,16 @@
+@startuml
+title A sample state machine
+[*] -> IDEL
+state CRUISE
+IDEL -> CRUISE: get_loading_task
+CRUISE --> QUEUING: is_in_control_range & allowed
+CRUISE --> CRUISE: go_for_next_pose
+CRUISE --> PREQUEUE: is_in_control_range & NOT allowed
+PREQUEUE --> PREQUEUE: NOT allowed
+PREQUEUE --> QUEUING: allowed
+QUEUING --> QUEUING: go_for_next_slot
+QUEUING --> LOADING_OR_UNLOADING: is_in_work_space
+LOADING_OR_UNLOADING --> CRUISE: get_task & is_operation_is_done
+LOADING_OR_UNLOADING --> LOADING_OR_UNLOADING: perform operation
+ALL_STATES --> [*]
+@enduml

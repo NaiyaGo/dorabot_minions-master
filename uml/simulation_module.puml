@@ -1,0 +1,107 @@
+@startuml
+
+title Simulation Module
+
+class "simulation_config_json" {
+    [visualization]
+    [environment]
+    [agents]
+}
+
+class "Environment" {
+    --input--
+    length_in_meters
+    width_in_meters
+    top_left_corner
+    resolution
+    workspace_vertices
+    obstacles
+    loading_ports
+    unloding_ports
+    waiting_area
+    --output--
+    General map of enviroment
+    Girdmap of environment
+    --process--
+    setup_workspace
+    setup_unlodaing ports
+    setup_loading ports
+    setup_queue_area
+}
+class "TaskManager" {
+  Simulate package sequnce and allocate tasks
+}
+class "Simulator"{
+    simulates the agents
+    simulates the environment
+}
+
+
+class "Visulization"{
+    make the simulator become visualizable
+
+}
+
+class "AgentStateMachine"{
+    --input--
+    Events
+    --output--
+    new state
+    Next State function(lambda)
+}
+
+class "NaiveAgent"{
+    --input--
+    angular and linear velocity
+    angular and linear acceleration
+    other configs read from json
+    --process--
+    +observe()
+    +act()
+    +plan()
+}
+
+class "Agent"{
+    ---AgentTemplate---
+
+    Agent.id
+    agent.verlocity
+    agent.state
+}
+
+class "global_planner"{
+    --input--
+    gridmap
+    start_pose
+    goal_pose
+    --output--
+    global_planner_path
+}
+
+class "local_planner"{
+    --input--
+    gridmap
+    sensor_observations
+    global_planner_path
+    --output--
+    planed_linear_speed
+    planed_angular_velocity
+}
+TaskManager <-- Simulator
+Environment <-- Simulator
+NaiveAgent  <-- Simulator
+Simulator --> Visulization
+NaiveAgent  -> global_planner
+NaiveAgent  --> AgentStateMachine
+local_planner <- NaiveAgent
+Agent  <.. NaiveAgent: inherit
+
+
+
+
+simulation_config_json <-- NaiveAgent
+simulation_config_json <-- Environment
+
+
+
+@enduml

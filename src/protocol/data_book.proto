@@ -1,0 +1,60 @@
+
+syntax = "proto3";
+
+package MARS;
+
+message Agent {
+    int32 id = 1;
+    Vector shape = 2;
+    Vector linear_velocity = 3;
+    float angular_velocity = 4;
+    float angle = 5;
+    Point position = 6;
+    Point destination_location = 7;
+    LocalPlanner local_planner = 8;
+    GlobalPlanner global_planner = 9;
+    Sensor sensor = 10;
+    repeated float ray_length_list = 11;
+    repeated Point sequence_of_poses = 12;
+    repeated Point internal_stations = 13;
+}
+
+message LocalPlanner {
+  string type = 1;
+}
+
+message GlobalPlanner {
+  string type = 1;
+  MapType map_type = 2;
+  repeated int32 agents_id = 3;
+
+  enum MapType {
+    GRID = 0;
+    CONTINUOUS = 1;
+  }
+}
+
+message Sensor {
+  int32 id = 1;
+  float radius = 2;
+  float angle = 3;
+  Point location = 4;
+  repeated int32 visible_agents_id = 5;
+  repeated Obstacle visible_obstacles = 6;
+}
+
+message Obstacle {
+  Point center = 1;
+  Vector dimension = 2;
+  string type = 3;
+}
+
+message Point {
+  float x = 1;
+  float y = 2;
+}
+
+message Vector {
+  float x = 1;
+  float y = 2;
+}
