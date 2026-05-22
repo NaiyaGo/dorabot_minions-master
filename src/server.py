@@ -24,7 +24,7 @@ class CongestionDetector(object):
 
     Called once per simulator step via Server.tick().
     """
-    WINDOW    = 60    # steps (~1 second at 60 Hz)
+    WINDOW    =60    # steps (~1 second at 60 Hz)
     THRESHOLD = 0.01  # squared-distance threshold (0.1 m)^2
 
     def __init__(self):
@@ -94,7 +94,7 @@ class Server:
         self._stuck_counter = {agent.id: 0 for agent in agents}         # consecutive near-zero-speed ticks
         self._rescue_cooldown = {agent.id: 0 for agent in agents}       # ticks until this agent can be rescued again
         # {id(ma_planner): (step_counter, solution_dict)} — one ECBS solve per step
-        self._path_cache = {}
+        #self._path_cache = {}
 
     def get_loading_task(self, agent):
         port = self.__choose_loading_port(agent)
@@ -301,25 +301,12 @@ class Server:
                 self.multiagent_global_planners.pop(i)
 
     def request_multiagent_global_planner_compute_path(self, agent):
-        '''Agent sends a request to server, asking for multiagent_global_planner to compute path for itself.
-
-        Result is cached per simulator step: N agents with goal_changed in the same step
-        trigger only one ECBS solve. Each agent's plan() still receives its own path slice
-        and manages its own state — no side effects on other agents.
-        '''
-        from simulator import Simulator
-        current_step = Simulator.step_counter
+        '''Agent sends a request to server, asking for multiagent_global_planner to compute path for itself'''
         for ma_planner in self.multiagent_global_planners:
-            if agent.id not in ma_planner.agents:
-                continue
-            pid = id(ma_planner)
-            cached_step, cached_paths = self._path_cache.get(pid, (-1, None))
-            if cached_step == current_step and cached_paths is not None:
-                return cached_paths.get(agent.id, [])
-            solution_paths_dict = ma_planner.compute_path()
-            self._path_cache[pid] = (current_step, solution_paths_dict)
-            return solution_paths_dict.get(agent.id, [])
-        print("Cannot find a multiagent global planner which is in charge of agent {}".format(agent.id))
+            if agent.id in ma_planner.agents.keys():
+                solution_paths_dict = ma_planner.compute_path()
+                return solution_paths_dict[agent.id]
+        print "Cannot find a multiagent global planner which is in charge of agent {}".format(agent.id)
         return []
             
     def collect_agents_info(self, agents_dict):

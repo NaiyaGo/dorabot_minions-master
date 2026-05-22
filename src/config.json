@@ -1,7 +1,7 @@
 {
     "environment": {
         "unloading_ports_process_time": 2,
-        "width_in_meters": 45,
+        "width_in_meters": 40,
         "loading_ports_process_time": 2,
         "num_unloading_ports": 4,
         "temp_ports_number": 5,
@@ -9,14 +9,14 @@
             "y": 0,
             "x": 0
         },
-        "height_in_meters": 20,
+        "height_in_meters": 24,
         "num_loading_ports": 4,
         "resolution": 2
     },
     "visualization": {
-        "pygame_screen_height": 900,
+        "pygame_screen_height": 1020,
         "pixels_per_meter": 30,
-        "pygame_screen_width": 1500,
+        "pygame_screen_width": 1350,
         "agents": true
     },
     "agents": {

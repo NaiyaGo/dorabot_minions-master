@@ -126,6 +126,7 @@ def operate(agent, server):
             agent.assign_task(server.get_loading_task(agent))
         else:
             raise Exception(" Unclassifed operation types ")
+        agent.destination_location = agent.task.destination_location  # sync before CRUISE
         agent.state = AgentState.CRUISE
         server.update_data(agent)
         agent.goal_changed = True
@@ -138,6 +139,7 @@ def move_if_next_slot_available(agent, server):
     if slot != agent.task.destination_location:
         agent.goal_changed = True
         agent.task.destination_location = slot
+        agent.destination_location = slot  # sync physical target with task target
 
 """ ================= Agent-side functions =================================="""
 def go_for_next_pose(agent, server=None):

@@ -1,0 +1,1693 @@
+pygame 2.0.3 (SDL 2.0.16, Python 2.7.13)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+--------------------------------------------------------------------------
+The Blue Port is loading port, and the Red Port is unloading ports
+--------------------------------------------------------------------------
+press q to exit
+press g to show/hide the grid map 
+press s to show/hide the range of radar
+press r to show/hide the control range of ports
+press d to show/hide the agents' details
+Red circle is the start of the control range of ports
+Blue circle is the end of the control range of ports
+Press b to OPEN DEBUG MODE, which draw everything from BOX2D
+press p to pause the simulator
+Clicked: (24.13, 11.13)
+VFP DEBUG NORMAL agent=0 pos=(3.00,4.00) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(45.899,-30.599) mag=55.1640
+VFP DEBUG NORMAL agent=0 pos=(3.01,4.00) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(46.077,-30.718) mag=55.3778
+  source=wall id=(1.5, 1.5) pos=None vec=(1.511,2.504) mag=2.9246
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.016) mag=0.0613
+VFP DEBUG NORMAL agent=0 pos=(3.01,3.99) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(46.304,-30.883) mag=55.6580
+  source=wall id=(1.5, 1.5) pos=None vec=(1.519,2.500) mag=2.9247
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.016) mag=0.0614
+VFP DEBUG NORMAL agent=0 pos=(3.02,3.99) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(46.547,-31.063) mag=55.9607
+  source=wall id=(1.5, 1.5) pos=None vec=(1.527,2.494) mag=2.9245
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.016) mag=0.0614
+VFP DEBUG NORMAL agent=0 pos=(3.03,3.98) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(46.798,-31.250) mag=56.2726
+  source=wall id=(1.5, 1.5) pos=None vec=(1.535,2.489) mag=2.9243
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.016) mag=0.0615
+VFP DEBUG NORMAL agent=0 pos=(3.04,3.98) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(47.053,-31.440) mag=56.5899
+  source=wall id=(1.5, 1.5) pos=None vec=(1.543,2.483) mag=2.9239
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.016) mag=0.0616
+VFP DEBUG NORMAL agent=0 pos=(3.05,3.97) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(47.311,-31.632) mag=56.9113
+  source=wall id=(1.5, 1.5) pos=None vec=(1.552,2.478) mag=2.9235
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0616
+VFP DEBUG NORMAL agent=0 pos=(3.06,3.97) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(47.571,-31.827) mag=57.2365
+  source=wall id=(1.5, 1.5) pos=None vec=(1.560,2.472) mag=2.9230
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0617
+VFP DEBUG NORMAL agent=0 pos=(3.06,3.96) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(47.836,-32.024) mag=57.5655
+  source=wall id=(1.5, 1.5) pos=None vec=(1.568,2.466) mag=2.9225
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0617
+VFP DEBUG NORMAL agent=0 pos=(3.07,3.96) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(48.103,-32.224) mag=57.8984
+  source=wall id=(1.5, 1.5) pos=None vec=(1.576,2.460) mag=2.9220
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0618
+VFP DEBUG NORMAL agent=0 pos=(3.08,3.95) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(48.373,-32.425) mag=58.2351
+  source=wall id=(1.5, 1.5) pos=None vec=(1.584,2.454) mag=2.9213
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0619
+VFP DEBUG NORMAL agent=0 pos=(3.09,3.95) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(48.646,-32.629) mag=58.5758
+  source=wall id=(1.5, 1.5) pos=None vec=(1.592,2.448) mag=2.9206
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0619
+VFP DEBUG NORMAL agent=0 pos=(3.10,3.94) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(48.923,-32.836) mag=58.9205
+  source=wall id=(1.5, 1.5) pos=None vec=(1.600,2.442) mag=2.9199
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0620
+VFP DEBUG NORMAL agent=0 pos=(3.11,3.94) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(49.203,-33.045) mag=59.2693
+  source=wall id=(1.5, 1.5) pos=None vec=(1.608,2.436) mag=2.9191
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0620
+VFP DEBUG NORMAL agent=0 pos=(3.12,3.93) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(49.486,-33.256) mag=59.6222
+  source=wall id=(1.5, 1.5) pos=None vec=(1.616,2.430) mag=2.9182
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0621
+VFP DEBUG NORMAL agent=0 pos=(3.12,3.92) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(49.772,-33.470) mag=59.9794
+  source=wall id=(1.5, 1.5) pos=None vec=(1.624,2.424) mag=2.9173
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0622
+VFP DEBUG NORMAL agent=0 pos=(3.13,3.92) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(50.062,-33.687) mag=60.3409
+  source=wall id=(1.5, 1.5) pos=None vec=(1.632,2.417) mag=2.9164
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0622
+VFP DEBUG NORMAL agent=0 pos=(3.14,3.91) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(50.356,-33.906) mag=60.7068
+  source=wall id=(1.5, 1.5) pos=None vec=(1.639,2.411) mag=2.9153
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0623
+VFP DEBUG NORMAL agent=0 pos=(3.15,3.91) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(50.653,-34.127) mag=61.0772
+  source=wall id=(1.5, 1.5) pos=None vec=(1.647,2.404) mag=2.9143
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0623
+VFP DEBUG NORMAL agent=0 pos=(3.16,3.90) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(50.954,-34.352) mag=61.4521
+  source=wall id=(1.5, 1.5) pos=None vec=(1.655,2.398) mag=2.9131
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0624
+VFP DEBUG NORMAL agent=0 pos=(3.17,3.90) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(51.258,-34.579) mag=61.8316
+  source=wall id=(1.5, 1.5) pos=None vec=(1.662,2.391) mag=2.9119
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0625
+VFP DEBUG NORMAL agent=0 pos=(3.18,3.89) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(51.567,-34.809) mag=62.2159
+  source=wall id=(1.5, 1.5) pos=None vec=(1.670,2.384) mag=2.9107
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0625
+VFP DEBUG NORMAL agent=0 pos=(3.18,3.89) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(51.879,-35.042) mag=62.6049
+  source=wall id=(1.5, 1.5) pos=None vec=(1.677,2.378) mag=2.9094
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.016) mag=0.0626
+VFP DEBUG NORMAL agent=0 pos=(3.19,3.88) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(52.195,-35.278) mag=62.9989
+  source=wall id=(1.5, 1.5) pos=None vec=(1.684,2.371) mag=2.9081
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0626
+VFP DEBUG NORMAL agent=0 pos=(3.20,3.88) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(52.515,-35.517) mag=63.3979
+  source=wall id=(1.5, 1.5) pos=None vec=(1.691,2.364) mag=2.9067
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0627
+VFP DEBUG NORMAL agent=0 pos=(3.21,3.87) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(44.912,-21.903) mag=49.9686
+  source=wall id=(1.5, 1.5) pos=None vec=(1.699,2.357) mag=2.9052
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0628
+VFP DEBUG NORMAL agent=0 pos=(3.22,3.87) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(45.136,-22.015) mag=50.2189
+  source=wall id=(1.5, 1.5) pos=None vec=(1.704,2.348) mag=2.9016
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0628
+VFP DEBUG NORMAL agent=0 pos=(3.23,3.86) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(45.359,-22.136) mag=50.4719
+  source=wall id=(1.5, 1.5) pos=None vec=(1.710,2.339) mag=2.8974
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0629
+VFP DEBUG NORMAL agent=0 pos=(3.24,3.86) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(45.583,-22.260) mag=50.7276
+  source=wall id=(1.5, 1.5) pos=None vec=(1.715,2.330) mag=2.8929
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0629
+VFP DEBUG NORMAL agent=0 pos=(3.25,3.86) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(45.809,-22.386) mag=50.9858
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0630
+VFP DEBUG NORMAL agent=0 pos=(3.26,3.85) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(46.041,-22.504) mag=51.2470
+  source=wall id=(1.5, 1.5) pos=None vec=(1.725,2.312) mag=2.8844
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0631
+VFP DEBUG NORMAL agent=0 pos=(3.27,3.85) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(46.273,-22.630) mag=51.5106
+  source=wall id=(1.5, 1.5) pos=None vec=(1.730,2.302) mag=2.8799
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0631
+VFP DEBUG NORMAL agent=0 pos=(3.27,3.84) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(46.507,-22.760) mag=51.7770
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0632
+VFP DEBUG NORMAL agent=0 pos=(3.28,3.84) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(46.747,-22.882) mag=52.0463
+  source=wall id=(1.5, 1.5) pos=None vec=(1.740,2.284) mag=2.8712
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0633
+VFP DEBUG NORMAL agent=0 pos=(3.29,3.84) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(46.986,-23.012) mag=52.3183
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0633
+VFP DEBUG NORMAL agent=0 pos=(3.30,3.83) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(47.231,-23.136) mag=52.5934
+  source=wall id=(1.5, 1.5) pos=None vec=(1.750,2.265) mag=2.8625
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0634
+VFP DEBUG NORMAL agent=0 pos=(3.31,3.83) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(47.476,-23.268) mag=52.8712
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0634
+VFP DEBUG NORMAL agent=0 pos=(3.32,3.82) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(47.727,-23.395) mag=53.1521
+  source=wall id=(1.5, 1.5) pos=None vec=(1.759,2.247) mag=2.8537
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0635
+VFP DEBUG NORMAL agent=0 pos=(3.33,3.82) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(47.976,-23.530) mag=53.4358
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.016) mag=0.0636
+VFP DEBUG NORMAL agent=0 pos=(3.34,3.82) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(48.232,-23.660) mag=53.7228
+  source=wall id=(1.5, 1.5) pos=None vec=(1.769,2.228) mag=2.8446
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0636
+VFP DEBUG NORMAL agent=0 pos=(3.35,3.81) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(48.488,-23.798) mag=54.0127
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0637
+VFP DEBUG NORMAL agent=0 pos=(3.36,3.81) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(48.749,-23.930) mag=54.3059
+  source=wall id=(1.5, 1.5) pos=None vec=(1.777,2.209) mag=2.8354
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0638
+VFP DEBUG NORMAL agent=0 pos=(3.37,3.80) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(49.010,-24.071) mag=54.6022
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0638
+VFP DEBUG NORMAL agent=0 pos=(3.37,3.80) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(49.278,-24.206) mag=54.9019
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0639
+VFP DEBUG NORMAL agent=0 pos=(3.38,3.79) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(49.549,-24.341) mag=55.2049
+  source=wall id=(1.5, 1.5) pos=None vec=(1.790,2.181) mag=2.8217
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0639
+VFP DEBUG NORMAL agent=0 pos=(3.39,3.79) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(49.819,-24.485) mag=55.5111
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0640
+VFP DEBUG NORMAL agent=0 pos=(3.40,3.79) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(50.096,-24.625) mag=55.8209
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0641
+VFP DEBUG NORMAL agent=0 pos=(3.41,3.78) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(50.376,-24.764) mag=56.1342
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0641
+VFP DEBUG NORMAL agent=0 pos=(3.42,3.78) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(50.661,-24.904) mag=56.4511
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0642
+VFP DEBUG NORMAL agent=0 pos=(3.43,3.77) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(50.948,-25.046) mag=56.7716
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0643
+VFP DEBUG NORMAL agent=0 pos=(3.44,3.77) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(51.239,-25.189) mag=57.0957
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0643
+VFP DEBUG NORMAL agent=0 pos=(3.45,3.76) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(51.533,-25.333) mag=57.4236
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0644
+VFP DEBUG NORMAL agent=0 pos=(3.46,3.76) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(51.831,-25.479) mag=57.7552
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0645
+VFP DEBUG NORMAL agent=0 pos=(3.46,3.76) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(52.132,-25.627) mag=58.0907
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0645
+VFP DEBUG NORMAL agent=0 pos=(3.47,3.75) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(52.437,-25.777) mag=58.4302
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.016) mag=0.0646
+VFP DEBUG NORMAL agent=0 pos=(3.48,3.75) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(52.745,-25.928) mag=58.7736
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.016) mag=0.0647
+VFP DEBUG NORMAL agent=0 pos=(3.49,3.74) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(53.057,-26.082) mag=59.1210
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.016) mag=0.0647
+VFP DEBUG NORMAL agent=0 pos=(3.50,3.74) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(53.373,-26.237) mag=59.4727
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.016) mag=0.0648
+VFP DEBUG NORMAL agent=0 pos=(3.51,3.73) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(53.692,-26.394) mag=59.8285
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.016) mag=0.0648
+VFP DEBUG NORMAL agent=0 pos=(3.52,3.73) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(54.015,-26.552) mag=60.1886
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.016) mag=0.0649
+VFP DEBUG NORMAL agent=0 pos=(3.53,3.72) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(54.342,-26.713) mag=60.5530
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.016) mag=0.0650
+VFP DEBUG NORMAL agent=0 pos=(3.54,3.72) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(54.673,-26.876) mag=60.9219
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.016) mag=0.0650
+VFP DEBUG NORMAL agent=0 pos=(3.54,3.72) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(55.009,-27.040) mag=61.2954
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.016) mag=0.0651
+VFP DEBUG NORMAL agent=0 pos=(3.55,3.71) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(55.348,-27.207) mag=61.6734
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.017) mag=0.0652
+VFP DEBUG NORMAL agent=0 pos=(3.56,3.71) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(55.691,-27.376) mag=62.0561
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.017) mag=0.0652
+VFP DEBUG NORMAL agent=0 pos=(3.57,3.70) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(56.039,-27.547) mag=62.4436
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.017) mag=0.0653
+VFP DEBUG NORMAL agent=0 pos=(3.58,3.70) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(56.394,-27.721) mag=62.8389
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.017) mag=0.0654
+VFP DEBUG NORMAL agent=0 pos=(3.59,3.69) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(56.757,-27.899) mag=63.2435
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.017) mag=0.0654
+VFP DEBUG NORMAL agent=0 pos=(3.60,3.69) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(57.129,-28.082) mag=63.6580
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.017) mag=0.0655
+VFP DEBUG NORMAL agent=0 pos=(3.61,3.68) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(57.511,-28.270) mag=64.0830
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.017) mag=0.0656
+VFP DEBUG NORMAL agent=0 pos=(3.62,3.68) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(57.902,-28.462) mag=64.5189
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0656
+VFP DEBUG NORMAL agent=0 pos=(3.63,3.67) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(47.034,-16.946) mag=49.9939
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0657
+VFP DEBUG NORMAL agent=0 pos=(3.64,3.67) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(47.292,-17.029) mag=50.2648
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0658
+VFP DEBUG NORMAL agent=0 pos=(3.65,3.67) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(47.555,-17.120) mag=50.5426
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0659
+VFP DEBUG NORMAL agent=0 pos=(3.66,3.66) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(47.823,-17.216) mag=50.8274
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0659
+VFP DEBUG NORMAL agent=0 pos=(3.67,3.66) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(48.098,-17.315) mag=51.1194
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0660
+VFP DEBUG NORMAL agent=0 pos=(3.68,3.66) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(48.380,-17.416) mag=51.4188
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0661
+VFP DEBUG NORMAL agent=0 pos=(3.69,3.65) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(48.669,-17.520) mag=51.7260
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0662
+VFP DEBUG NORMAL agent=0 pos=(3.70,3.65) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(48.965,-17.627) mag=52.0413
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0662
+VFP DEBUG NORMAL agent=0 pos=(3.71,3.64) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(49.270,-17.736) mag=52.3649
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0663
+VFP DEBUG NORMAL agent=0 pos=(3.72,3.64) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(49.582,-17.849) mag=52.6973
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0664
+VFP DEBUG NORMAL agent=0 pos=(3.74,3.64) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(49.904,-17.964) mag=53.0386
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0665
+VFP DEBUG NORMAL agent=0 pos=(3.75,3.63) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(50.234,-18.083) mag=53.3894
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.017) mag=0.0666
+VFP DEBUG NORMAL agent=0 pos=(3.76,3.63) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(50.573,-18.205) mag=53.7500
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0667
+VFP DEBUG NORMAL agent=0 pos=(3.77,3.62) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(50.922,-18.331) mag=54.1208
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0667
+VFP DEBUG NORMAL agent=0 pos=(3.78,3.62) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(51.281,-18.460) mag=54.5022
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0668
+VFP DEBUG NORMAL agent=0 pos=(3.80,3.61) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(51.650,-18.593) mag=54.8947
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0669
+VFP DEBUG NORMAL agent=0 pos=(3.81,3.61) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(52.030,-18.730) mag=55.2987
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0670
+VFP DEBUG NORMAL agent=0 pos=(3.82,3.60) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(52.422,-18.870) mag=55.7148
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0671
+VFP DEBUG NORMAL agent=0 pos=(3.83,3.60) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(52.825,-19.016) mag=56.1434
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0672
+VFP DEBUG NORMAL agent=0 pos=(3.85,3.60) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(53.241,-19.165) mag=56.5851
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0673
+VFP DEBUG NORMAL agent=0 pos=(3.86,3.59) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(53.669,-19.319) mag=57.0406
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0674
+VFP DEBUG NORMAL agent=0 pos=(3.87,3.59) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(54.111,-19.478) mag=57.5104
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0675
+VFP DEBUG NORMAL agent=0 pos=(3.89,3.58) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(54.567,-19.643) mag=57.9951
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.017) mag=0.0676
+Clicked: (3.90, 3.47)
+VFP DEBUG NORMAL agent=0 pos=(3.90,3.58) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(55.038,-19.812) mag=58.4956
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.066,0.017) mag=0.0677
+VFP DEBUG NORMAL agent=0 pos=(3.93,3.47) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(58.271,-17.357) mag=60.8016
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.066,0.017) mag=0.0681
+VFP DEBUG NORMAL agent=0 pos=(4.17,3.43) goal=(6.00,3.00)
+  source=attract id=goal pos=(6.0, 3.0) vec=(51.387,-12.146) mag=52.8025
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.068,0.017) mag=0.0698
+VFP DEBUG NORMAL agent=0 pos=(4.90,3.30) goal=(6.50,3.00)
+  source=attract id=goal pos=(6.5, 3.0) vec=(60.009,-11.252) mag=61.0544
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.073,0.019) mag=0.0756
+VFP DEBUG NORMAL agent=0 pos=(5.77,3.10) goal=(7.50,3.00)
+  source=attract id=goal pos=(7.5, 3.0) vec=(57.172,-3.298) mag=57.2667
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.081,0.021) mag=0.0836
+VFP DEBUG NORMAL agent=0 pos=(6.70,2.90) goal=(8.00,1.50)
+  source=attract id=goal pos=(8.0, 1.5) vec=(35.431,-38.156) mag=52.0698
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.091,0.024) mag=0.0937
+VFP DEBUG NORMAL agent=0 pos=(7.33,2.70) goal=(8.00,1.00)
+  source=attract id=goal pos=(8.0, 1.0) vec=(19.884,-50.705) mag=54.4648
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.098,0.026) mag=0.1018
+VFP DEBUG NORMAL agent=0 pos=(7.97,2.57) goal=(9.00,1.00)
+  source=attract id=goal pos=(9.0, 1.0) vec=(29.182,-44.244) mag=53.0009
+  source=wall id=(11.5, 1.5) pos=None vec=(-1.750,0.528) mag=1.8285
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.107,0.028) mag=0.1107
+VFP DEBUG NORMAL agent=0 pos=(8.60,2.40) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(35.535,-35.535) mag=50.2538
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.576,0.799) mag=2.6969
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.117,0.031) mag=0.1210
+VFP DEBUG NORMAL agent=0 pos=(9.13,2.30) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(35.277,-52.916) mag=63.5968
+  source=wall id=(11.5, 1.5) pos=None vec=(-3.765,1.273) mag=3.9739
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.126,0.034) mag=0.1307
+VFP DEBUG NORMAL agent=0 pos=(9.37,2.27) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(31.358,-62.715) mag=70.1175
+  source=wall id=(11.5, 1.5) pos=None vec=(-4.534,1.629) mag=4.8180
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.131,0.035) mag=0.1352
+VFP DEBUG NORMAL agent=0 pos=(9.43,2.23) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(30.535,-66.458) mag=73.1376
+  source=wall id=(11.5, 1.5) pos=None vec=(-4.849,1.721) mag=5.1452
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.132,0.035) mag=0.1367
+VFP DEBUG NORMAL agent=0 pos=(9.43,2.20) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(31.936,-67.629) mag=74.7904
+  source=wall id=(11.5, 1.5) pos=None vec=(-4.922,1.667) mag=5.1963
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.132,0.035) mag=0.1368
+VFP DEBUG NORMAL agent=0 pos=(9.57,1.80) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(51.780,-95.594) mag=108.7165
+  source=wall id=(11.5, 1.5) pos=None vec=(-6.371,0.989) mag=6.4470
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.138,0.032) mag=0.1415
+VFP DEBUG NORMAL agent=0 pos=(9.50,1.53) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(92.293,-98.445) mag=134.9423
+  source=wall id=(11.5, 1.5) pos=None vec=(-6.170,0.103) mag=6.1711
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.138,0.030) mag=0.1414
+VFP DEBUG NORMAL agent=0 pos=(9.51,1.51) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(95.898,-101.412) mag=139.5734
+  source=wall id=(11.5, 1.5) pos=None vec=(-6.262,0.042) mag=6.2625
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.139,0.030) mag=0.1418
+VFP DEBUG NORMAL agent=0 pos=(9.53,1.49) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(99.585,-104.830) mag=144.5908
+  source=wall id=(11.5, 1.5) pos=None vec=(-6.363,-0.019) mag=6.3633
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.139,0.029) mag=0.1422
+VFP DEBUG NORMAL agent=0 pos=(9.55,1.48) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(103.490,-108.583) mag=150.0016
+  source=wall id=(11.5, 1.5) pos=None vec=(-6.468,-0.082) mag=6.4683
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.140,0.029) mag=0.1426
+VFP DEBUG NORMAL agent=0 pos=(9.56,1.46) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(107.681,-112.653) mag=155.8394
+  source=wall id=(11.5, 1.5) pos=None vec=(-6.574,-0.147) mag=6.5758
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.140,0.029) mag=0.1431
+VFP DEBUG NORMAL agent=0 pos=(9.58,1.44) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(112.209,-117.058) mag=162.1523
+  source=wall id=(11.5, 1.5) pos=None vec=(-6.682,-0.216) mag=6.6852
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.141,0.029) mag=0.1435
+VFP DEBUG NORMAL agent=0 pos=(9.60,1.42) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(117.121,-121.834) mag=168.9990
+  source=wall id=(11.5, 1.5) pos=None vec=(-6.790,-0.288) mag=6.7963
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.141,0.029) mag=0.1440
+VFP DEBUG NORMAL agent=0 pos=(9.61,1.40) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(122.469,-127.027) mag=176.4499
+  source=wall id=(11.5, 1.5) pos=None vec=(-6.900,-0.363) mag=6.9091
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.141,0.029) mag=0.1444
+VFP DEBUG NORMAL agent=0 pos=(9.63,1.38) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(128.316,-132.694) mag=184.5882
+  source=wall id=(11.5, 1.5) pos=None vec=(-7.010,-0.441) mag=7.0236
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.142,0.029) mag=0.1448
+VFP DEBUG NORMAL agent=0 pos=(9.65,1.36) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(134.734,-138.904) mag=193.5138
+  source=wall id=(11.5, 1.5) pos=None vec=(-7.120,-0.524) mag=7.1397
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.142,0.029) mag=0.1453
+VFP DEBUG NORMAL agent=0 pos=(9.66,1.35) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(141.810,-145.738) mag=203.3466
+  source=wall id=(11.5, 1.5) pos=None vec=(-7.232,-0.609) mag=7.2574
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.143,0.029) mag=0.1457
+VFP DEBUG NORMAL agent=0 pos=(9.68,1.33) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(149.651,-153.297) mag=214.2323
+  source=wall id=(11.5, 1.5) pos=None vec=(-7.344,-0.699) mag=7.3767
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.143,0.029) mag=0.1462
+VFP DEBUG NORMAL agent=0 pos=(9.70,1.31) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(158.386,-161.704) mag=226.3498
+  source=wall id=(11.5, 1.5) pos=None vec=(-7.456,-0.792) mag=7.4976
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.144,0.029) mag=0.1466
+VFP DEBUG NORMAL agent=0 pos=(9.71,1.29) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(168.177,-171.109) mag=239.9205
+  source=wall id=(11.5, 1.5) pos=None vec=(-7.568,-0.890) mag=7.6200
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.144,0.029) mag=0.1471
+VFP DEBUG NORMAL agent=0 pos=(9.73,1.27) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(179.226,-181.705) mag=255.2227
+  source=wall id=(11.5, 1.5) pos=None vec=(-7.680,-0.991) mag=7.7440
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.145,0.029) mag=0.1475
+VFP DEBUG NORMAL agent=0 pos=(9.75,1.25) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(191.791,-193.734) mag=272.6107
+  source=wall id=(11.5, 1.5) pos=None vec=(-7.793,-1.097) mag=7.8694
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.145,0.029) mag=0.1480
+VFP DEBUG NORMAL agent=0 pos=(9.77,1.24) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(206.206,-207.508) mag=292.5413
+  source=wall id=(11.5, 1.5) pos=None vec=(-7.905,-1.206) mag=7.9963
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.146,0.028) mag=0.1485
+VFP DEBUG NORMAL agent=0 pos=(9.78,1.22) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(222.909,-223.440) mag=315.6169
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.017,-1.320) mag=8.1246
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.146,0.028) mag=0.1489
+VFP DEBUG NORMAL agent=0 pos=(9.80,1.20) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(242.490,-242.084) mag=342.6455
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.128,-1.439) mag=8.2544
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.147,0.028) mag=0.1494
+VFP DEBUG NORMAL agent=0 pos=(9.82,1.18) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(265.760,-264.197) mag=374.7374
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.239,-1.562) mag=8.3854
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.147,0.028) mag=0.1499
+VFP DEBUG NORMAL agent=0 pos=(9.84,1.16) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(293.864,-290.854) mag=413.4633
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.349,-1.689) mag=8.5178
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.148,0.028) mag=0.1504
+VFP DEBUG NORMAL agent=0 pos=(9.85,1.15) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(328.479,-323.621) mag=461.1176
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.457,-1.822) mag=8.6514
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.148,0.028) mag=0.1508
+VFP DEBUG NORMAL agent=0 pos=(9.87,1.13) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(372.157,-364.878) mag=521.1883
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.565,-1.958) mag=8.7863
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.149,0.028) mag=0.1513
+VFP DEBUG NORMAL agent=0 pos=(9.89,1.11) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(428.983,-418.429) mag=599.2571
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.672,-2.100) mag=8.9223
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.149,0.028) mag=0.1518
+VFP DEBUG NORMAL agent=0 pos=(9.91,1.09) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(505.927,-490.749) mag=704.8384
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.776,-2.246) mag=9.0594
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.150,0.028) mag=0.1523
+VFP DEBUG NORMAL agent=0 pos=(9.92,1.07) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(615.945,-593.833) mag=855.5847
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.880,-2.398) mag=9.1977
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.150,0.028) mag=0.1528
+VFP DEBUG NORMAL agent=0 pos=(9.94,1.06) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(786.145,-752.659) mag=1088.3563
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.981,-2.554) mag=9.3370
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.151,0.028) mag=0.1533
+VFP DEBUG NORMAL agent=0 pos=(9.96,1.04) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(1084.383,-1029.346) mag=1495.1390
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.080,-2.715) mag=9.4774
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.151,0.028) mag=0.1538
+VFP DEBUG NORMAL agent=0 pos=(9.98,1.02) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(1741.992,-1632.622) mag=2387.4657
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.177,-2.881) mag=9.6191
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.028) mag=0.1543
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(4419.423,-3940.775) mag=5921.2339
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.273,-3.052) mag=9.7622
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2620.600,2405.925) mag=3557.5300
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.370,-3.229) mag=9.9106
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-4061.818,3741.181) mag=5522.2098
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3287.155,-3023.107) mag=4465.9335
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6656.682,-6140.644) mag=9056.4299
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7978
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2460.033,2271.895) mag=3348.6224
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.376,-3.241) mag=9.9203
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3922.962,3661.627) mag=5366.2969
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3295.934,-3060.485) mag=4497.7495
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6625.279,-6232.476) mag=9096.0477
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7982
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2438.619,2292.397) mag=3346.9312
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.374,-3.241) mag=9.9184
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3889.029,3695.673) mag=5364.9371
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3268.828,-3089.842) mag=4498.0395
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6568.309,-6293.174) mag=9096.5221
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2417.612,2314.563) mag=3346.9468
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.372,-3.241) mag=9.9164
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3855.220,3730.895) mag=5364.9135
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.332,-3.161) mag=9.8524
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3247.833,-3111.936) mag=4498.0623
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.256,-3.015) mag=9.7345
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6698.190,-6154.563) mag=9096.3943
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7981
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2453.917,2276.049) mag=3346.9547
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.375,-3.241) mag=9.9199
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3914.547,3668.667) mag=5364.9602
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3289.792,-3067.457) mag=4498.0018
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6611.957,-6247.295) mag=9096.5193
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7982
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2433.612,2297.689) mag=3346.9151
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.373,-3.241) mag=9.9180
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3881.044,3703.876) mag=5364.8119
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3262.282,-3096.836) mag=4498.0970
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6554.203,-6308.421) mag=9096.9089
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2412.345,2319.950) mag=3346.8756
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.371,-3.241) mag=9.9159
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3846.603,3739.572) mag=5364.7694
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.331,-3.161) mag=9.8522
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3240.873,-3119.222) mag=4498.0893
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.256,-3.015) mag=9.7348
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6682.720,-6171.689) mag=9096.6195
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7981
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2448.215,2282.244) mag=3346.9977
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.375,-3.241) mag=9.9193
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3905.409,3678.607) mag=5365.1067
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3281.985,-3075.743) mag=4497.9570
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6598.739,-6260.510) mag=9096.0073
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7982
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2428.744,2302.921) mag=3346.9757
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.373,-3.241) mag=9.9175
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3873.192,3712.364) mag=5365.0041
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3255.475,-3103.889) mag=4498.0267
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6542.073,-6320.437) mag=9096.5184
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2407.907,2324.602) mag=3346.9078
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.371,-3.241) mag=9.9155
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3839.500,3746.866) mag=5364.7709
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.331,-3.161) mag=9.8520
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3234.946,-3125.394) mag=4498.1066
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.256,-3.015) mag=9.7350
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6672.590,-6182.408) mag=9096.4620
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7981
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2444.430,2286.224) mag=3346.9481
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.375,-3.241) mag=9.9190
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3899.178,3685.016) mag=5364.9723
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3276.956,-3081.265) mag=4498.0698
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6587.118,-6273.706) mag=9096.6755
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2424.323,2307.507) mag=3346.9285
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.373,-3.241) mag=9.9171
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3866.003,3719.799) mag=5364.9676
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3249.526,-3110.125) mag=4498.0328
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6531.119,-6331.388) mag=9096.2623
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2403.867,2328.887) mag=3346.9827
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.371,-3.241) mag=9.9151
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3833.027,3753.888) mag=5365.0515
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.331,-3.161) mag=9.8518
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3229.244,-3130.971) mag=4497.8883
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.257,-3.015) mag=9.7353
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6662.507,-6191.597) mag=9095.3215
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7981
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2441.001,2290.225) mag=3347.1805
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.374,-3.241) mag=9.9186
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3893.905,3691.375) mag=5365.5142
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3271.898,-3086.031) mag=4497.6554
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6578.387,-6279.964) mag=9094.6752
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2421.698,2310.602) mag=3347.1635
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.372,-3.241) mag=9.9168
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3861.903,3724.835) mag=5365.5090
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.332,-3.161) mag=9.8525
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3252.769,-3106.048) mag=4497.5592
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6497.292,-6363.384) mag=9094.3642
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7984
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2394.840,2338.526) mag=3347.2321
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.370,-3.241) mag=9.9143
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3818.425,3769.621) mag=5365.6692
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.331,-3.161) mag=9.8514
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3216.489,-3143.482) mag=4497.4750
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.257,-3.015) mag=9.7358
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6633.907,-6220.376) mag=9094.0525
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7982
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2431.080,2300.911) mag=3347.2890
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.373,-3.241) mag=9.9177
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3877.898,3708.555) mag=5365.7687
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3258.267,-3100.200) mag=4497.5045
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6548.709,-6310.317) mag=9094.2673
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2411.041,2321.803) mag=3347.2206
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.371,-3.241) mag=9.9158
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3844.801,3742.534) mag=5365.5433
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.331,-3.161) mag=9.8521
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3238.460,-3121.010) mag=4497.5912
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.256,-3.015) mag=9.7349
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6679.826,-6171.437) mag=9094.3228
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7981
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2447.809,2283.126) mag=3347.3026
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.375,-3.241) mag=9.9193
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3904.930,3680.315) mag=5365.9296
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3280.696,-3076.201) mag=4497.3303
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6594.307,-6261.546) mag=9093.5054
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7982
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2428.093,2304.115) mag=3347.3247
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.373,-3.241) mag=9.9174
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3872.353,3714.585) mag=5365.9355
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3253.747,-3104.722) mag=4497.3507
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6536.615,-6322.282) mag=9093.8761
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2406.925,2326.117) mag=3347.2541
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.371,-3.241) mag=9.9154
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3838.067,3749.677) mag=5365.7096
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.331,-3.161) mag=9.8519
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3232.700,-3126.869) mag=4497.5171
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.256,-3.015) mag=9.7351
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6668.541,-6183.200) mag=9094.0311
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7981
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2443.726,2287.570) mag=3347.3537
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.374,-3.241) mag=9.9189
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3898.450,3687.203) mag=5365.9462
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3275.198,-3082.132) mag=4497.3842
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6585.259,-6271.003) mag=9093.4655
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7982
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2424.621,2307.817) mag=3347.3587
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.373,-3.241) mag=9.9170
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3866.909,3720.182) mag=5365.8868
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3249.218,-3109.481) mag=4497.3646
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6527.472,-6331.648) mag=9093.8253
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2403.570,2329.598) mag=3347.2642
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.370,-3.241) mag=9.9151
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3832.713,3755.136) mag=5365.6999
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.331,-3.161) mag=9.8518
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3228.294,-3131.276) mag=4497.4183
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.257,-3.015) mag=9.7353
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6657.241,-6194.933) mag=9093.7367
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7981
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2439.826,2291.693) mag=3347.3286
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.374,-3.241) mag=9.9185
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3891.980,3694.062) mag=5365.9669
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3269.849,-3087.742) mag=4497.3395
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6570.679,-6286.747) mag=9093.7897
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2419.387,2313.229) mag=3347.3066
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.372,-3.241) mag=9.9166
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3858.379,3728.880) mag=5365.7832
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.332,-3.161) mag=9.8524
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3249.455,-3109.402) mag=4497.4813
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.256,-3.015) mag=9.7344
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6701.763,-6146.909) mag=9093.8507
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7980
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2456.084,2274.289) mag=3347.3479
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.376,-3.241) mag=9.9200
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3918.296,3666.291) mag=5366.0725
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3291.710,-3064.268) mag=4497.2314
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6616.629,-6237.325) mag=9093.0741
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7982
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2436.452,2295.408) mag=3347.4164
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.374,-3.241) mag=9.9182
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3885.951,3700.714) mag=5366.1812
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3264.850,-3092.713) mag=4497.1234
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6560.019,-6296.097) mag=9092.5621
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2415.929,2317.029) mag=3347.4373
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.372,-3.241) mag=9.9162
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3852.776,3735.248) mag=5366.1869
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.331,-3.161) mag=9.8523
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3244.440,-3114.060) mag=4497.0838
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.256,-3.015) mag=9.7346
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6688.769,-6158.880) mag=9092.3833
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7980
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2451.985,2279.027) mag=3347.5655
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.375,-3.241) mag=9.9196
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3911.832,3673.974) mag=5366.6111
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3285.696,-3070.177) mag=4496.8641
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6603.623,-6248.927) mag=9091.5853
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7982
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2432.235,2300.101) mag=3347.5706
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.373,-3.241) mag=9.9177
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3879.194,3708.397) mag=5366.5959
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3258.763,-3098.786) mag=4496.8889
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6545.605,-6310.128) mag=9091.9006
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2410.978,2322.332) mag=3347.5424
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.371,-3.241) mag=9.9157
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3844.900,3743.621) mag=5366.3730
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.331,-3.161) mag=9.8521
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3237.612,-3121.038) mag=4497.0005
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.256,-3.015) mag=9.7349
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6676.350,-6171.717) mag=9091.9604
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7981
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2447.471,2283.861) mag=3347.5566
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.375,-3.241) mag=9.9192
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3904.503,3681.625) mag=5366.5173
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3279.714,-3076.549) mag=4496.8520
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6592.253,-6260.472) mag=9091.2762
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7982
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2428.109,2304.496) mag=3347.5987
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.373,-3.241) mag=9.9173
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3872.586,3715.242) mag=5366.5576
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3253.236,-3104.645) mag=4496.9282
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6536.502,-6319.487) mag=9091.8517
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7983
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2407.493,2325.984) mag=3347.5697
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.371,-3.241) mag=9.9154
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3839.273,3749.582) mag=5366.5057
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.331,-3.161) mag=9.8519
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+VFP DEBUG NORMAL agent=0 pos=(9.99,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3232.809,-3125.838) mag=4496.8787
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.256,-3.015) mag=9.7351
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1547
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(6665.097,-6183.439) mag=9091.6684
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.297,-3.093) mag=9.7981
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1549
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2443.502,2288.273) mag=3347.6707
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.374,-3.241) mag=9.9188
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1553
+VFP DEBUG NORMAL agent=0 pos=(10.01,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-3898.208,3688.809) mag=5366.8740
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1551
+Clicked: (9.80, 0.90)
+VFP DEBUG NORMAL agent=0 pos=(9.80,0.90) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(382.877,191.439) mag=428.0698
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.149,0.025) mag=0.1506
+VFP DEBUG NORMAL agent=0 pos=(9.63,0.87) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(234.856,85.402) mag=249.9019
+  source=wall id=(11.5, 1.5) pos=None vec=(-6.016,-2.041) mag=6.3523
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.145,0.024) mag=0.1470
+VFP DEBUG NORMAL agent=0 pos=(9.50,0.77) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(161.310,75.278) mag=178.0103
+  source=wall id=(11.5, 1.5) pos=None vec=(-5.116,-1.876) mag=5.4493
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.143,0.022) mag=0.1444
+VFP DEBUG NORMAL agent=0 pos=(9.30,0.70) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(119.125,51.054) mag=129.6046
+  source=wall id=(11.5, 1.5) pos=None vec=(-4.249,-1.545) mag=4.5208
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.139,0.021) mag=0.1404
+VFP DEBUG NORMAL agent=0 pos=(9.13,0.63) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(96.838,40.970) mag=105.1480
+  source=wall id=(11.5, 1.5) pos=None vec=(-3.667,-1.343) mag=3.9049
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.136,0.019) mag=0.1372
+VFP DEBUG NORMAL agent=0 pos=(9.00,0.60) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(85.414,34.166) mag=91.9935
+  source=wall id=(11.5, 1.5) pos=None vec=(-3.308,-1.191) mag=3.5162
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.133,0.018) mag=0.1346
+VFP DEBUG NORMAL agent=0 pos=(8.87,0.60) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(77.814,27.464) mag=82.5184
+  source=wall id=(11.5, 1.5) pos=None vec=(-3.035,-1.037) mag=3.2074
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.131,0.018) mag=0.1320
+VFP DEBUG NORMAL agent=0 pos=(8.73,0.63) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(72.295,20.928) mag=75.2632
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.821,-0.884) mag=2.9566
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.128,0.018) mag=0.1295
+VFP DEBUG NORMAL agent=0 pos=(8.53,0.63) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(63.749,15.937) mag=65.7114
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.499,-0.730) mag=2.6036
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.125,0.017) mag=0.1258
+VFP DEBUG NORMAL agent=0 pos=(8.30,0.63) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(55.887,12.054) mag=57.1725
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.186,-0.592) mag=2.2643
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.121,0.016) mag=0.1218
+VFP DEBUG NORMAL agent=0 pos=(8.27,0.70) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(55.698,9.640) mag=56.5258
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.178,-0.539) mag=2.2433
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.120,0.016) mag=0.1211
+VFP DEBUG NORMAL agent=0 pos=(8.29,0.70) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(56.498,9.765) mag=57.3355
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.210,-0.548) mag=2.2771
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.120,0.017) mag=0.1215
+VFP DEBUG NORMAL agent=0 pos=(8.32,0.71) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(57.320,9.904) mag=58.1691
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.244,-0.557) mag=2.3117
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.121,0.017) mag=0.1219
+VFP DEBUG NORMAL agent=0 pos=(8.34,0.71) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(58.166,10.050) mag=59.0275
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.278,-0.567) mag=2.3471
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.121,0.017) mag=0.1223
+VFP DEBUG NORMAL agent=0 pos=(8.37,0.72) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(59.037,10.202) mag=59.9116
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.312,-0.577) mag=2.3832
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.122,0.017) mag=0.1227
+VFP DEBUG NORMAL agent=0 pos=(8.13,0.83) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(52.866,4.720) mag=53.0759
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.073,-0.411) mag=2.1135
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.117,0.017) mag=0.1186
+VFP DEBUG NORMAL agent=0 pos=(7.60,1.00) goal=(9.50,1.00)
+  source=attract id=goal pos=(9.5, 1.0) vec=(52.356,0.000) mag=52.3560
+  source=wall id=(11.5, 1.5) pos=None vec=(-1.599,-0.205) mag=1.6119
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.109,0.016) mag=0.1101
+VFP DEBUG NORMAL agent=0 pos=(7.33,1.10) goal=(9.00,1.00)
+  source=attract id=goal pos=(9.0, 1.0) vec=(59.429,-3.566) mag=59.5357
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.105,0.016) mag=0.1061
+VFP DEBUG NORMAL agent=0 pos=(7.23,1.10) goal=(9.00,1.00)
+  source=attract id=goal pos=(9.0, 1.0) vec=(56.106,-3.176) mag=56.1957
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.104,0.016) mag=0.1048
+VFP DEBUG NORMAL agent=0 pos=(7.03,1.17) goal=(9.00,1.00)
+  source=attract id=goal pos=(9.0, 1.0) vec=(50.230,-4.257) mag=50.4104
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.101,0.016) mag=0.1020
+VFP DEBUG NORMAL agent=0 pos=(6.53,1.27) goal=(8.50,1.00)
+  source=attract id=goal pos=(8.5, 1.0) vec=(49.679,-6.736) mag=50.1337
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.095,0.015) mag=0.0957
+VFP DEBUG NORMAL agent=0 pos=(6.07,1.33) goal=(8.00,1.00)
+  source=attract id=goal pos=(8.0, 1.0) vec=(49.976,-8.617) mag=50.7136
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.089,0.014) mag=0.0903
+VFP DEBUG NORMAL agent=0 pos=(5.93,1.33) goal=(7.00,3.00)
+  source=attract id=goal pos=(7.0, 3.0) vec=(27.105,42.351) mag=50.2822
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.088,0.014) mag=0.0889
+VFP DEBUG NORMAL agent=0 pos=(5.67,1.37) goal=(6.50,3.00)
+  source=attract id=goal pos=(6.5, 3.0) vec=(24.651,48.315) mag=54.2406
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.085,0.013) mag=0.0861
+VFP DEBUG NORMAL agent=0 pos=(4.97,1.27) goal=(5.50,3.00)
+  source=attract id=goal pos=(5.5, 3.0) vec=(16.127,52.414) mag=54.8387
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.079,0.011) mag=0.0797
+VFP DEBUG NORMAL agent=0 pos=(4.37,1.17) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(16.748,48.480) mag=51.2914
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.074,0.010) mag=0.0747
+VFP DEBUG NORMAL agent=0 pos=(4.33,1.17) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(17.429,47.929) mag=51.0000
+  source=wall id=(-1.25, 10.5) pos=None vec=(0.108,-0.181) mag=0.2113
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.074,0.010) mag=0.0744
+VFP DEBUG NORMAL agent=0 pos=(4.30,1.17) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(18.084,47.364) mag=50.6990
+  source=wall id=(-1.25, 10.5) pos=None vec=(0.108,-0.182) mag=0.2119
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.074,0.010) mag=0.0742
+VFP DEBUG NORMAL agent=0 pos=(4.27,1.13) goal=(4.50,3.00)
+  source=attract id=goal pos=(4.5, 3.0) vec=(6.559,52.468) mag=52.8766
+  source=wall id=(-1.25, 10.5) pos=None vec=(0.107,-0.182) mag=0.2115
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.073,0.010) mag=0.0739
+VFP DEBUG NORMAL agent=0 pos=(3.83,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(16.190,0.000) mag=16.1900
+  source=wall id=(-1.25, 10.5) pos=None vec=(0.102,-0.190) mag=0.2153
+VFP DEBUG NORMAL agent=0 pos=(3.63,0.93) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(15.680,0.164) mag=15.6813
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.069,0.008) mag=0.0693
+VFP DEBUG NORMAL agent=0 pos=(3.60,0.93) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(15.599,0.162) mag=15.5998
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.069,0.008) mag=0.0691
+VFP DEBUG NORMAL agent=0 pos=(3.53,0.90) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(15.436,0.239) mag=15.4382
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.068,0.008) mag=0.0686
+VFP DEBUG NORMAL agent=0 pos=(2.70,0.87) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.675,0.250) mag=13.6776
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.007) mag=0.0630
+VFP DEBUG NORMAL agent=0 pos=(1.80,0.83) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.175,0.247) mag=12.1777
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.057,0.006) mag=0.0578
+VFP DEBUG NORMAL agent=0 pos=(1.60,0.83) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(11.886,0.236) mag=11.8883
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.056,0.006) mag=0.0567
+VFP DEBUG NORMAL agent=0 pos=(1.62,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(11.914,0.375) mag=11.9200
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.057,0.005) mag=0.0568
+VFP DEBUG NORMAL agent=0 pos=(1.63,0.83) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(11.933,0.238) mag=11.9356
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.057,0.006) mag=0.0568
+VFP DEBUG NORMAL agent=0 pos=(1.66,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(11.965,0.378) mag=11.9709
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.057,0.005) mag=0.0570
+VFP DEBUG NORMAL agent=0 pos=(1.69,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.000,0.383) mag=12.0065
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.057,0.005) mag=0.0572
+VFP DEBUG NORMAL agent=0 pos=(1.71,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.036,0.387) mag=12.0424
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.057,0.005) mag=0.0573
+VFP DEBUG NORMAL agent=0 pos=(1.74,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.072,0.391) mag=12.0784
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.057,0.005) mag=0.0575
+VFP DEBUG NORMAL agent=0 pos=(1.76,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.109,0.394) mag=12.1150
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.057,0.005) mag=0.0576
+VFP DEBUG NORMAL agent=0 pos=(1.79,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.145,0.397) mag=12.1518
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.057,0.005) mag=0.0577
+VFP DEBUG NORMAL agent=0 pos=(1.81,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.182,0.399) mag=12.1888
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.058,0.006) mag=0.0579
+VFP DEBUG NORMAL agent=0 pos=(1.84,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.219,0.401) mag=12.2261
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.058,0.006) mag=0.0580
+VFP DEBUG NORMAL agent=0 pos=(1.86,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.257,0.403) mag=12.2635
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.058,0.006) mag=0.0581
+VFP DEBUG NORMAL agent=0 pos=(1.89,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.295,0.405) mag=12.3013
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.058,0.006) mag=0.0583
+VFP DEBUG NORMAL agent=0 pos=(1.91,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.333,0.407) mag=12.3392
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.058,0.006) mag=0.0584
+VFP DEBUG NORMAL agent=0 pos=(1.94,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.371,0.408) mag=12.3774
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.058,0.006) mag=0.0586
+VFP DEBUG NORMAL agent=0 pos=(1.96,0.73) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.409,0.410) mag=12.4158
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.058,0.006) mag=0.0587
+VFP DEBUG NORMAL agent=0 pos=(1.99,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.448,0.412) mag=12.4545
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.006) mag=0.0588
+VFP DEBUG NORMAL agent=0 pos=(2.01,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.487,0.413) mag=12.4934
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.006) mag=0.0590
+VFP DEBUG NORMAL agent=0 pos=(2.04,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.526,0.414) mag=12.5325
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.006) mag=0.0591
+VFP DEBUG NORMAL agent=0 pos=(2.06,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.565,0.416) mag=12.5719
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.006) mag=0.0593
+VFP DEBUG NORMAL agent=0 pos=(2.09,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.605,0.417) mag=12.6115
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.006) mag=0.0594
+VFP DEBUG NORMAL agent=0 pos=(2.11,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.645,0.419) mag=12.6514
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.006) mag=0.0596
+VFP DEBUG NORMAL agent=0 pos=(2.14,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.685,0.420) mag=12.6916
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.059,0.006) mag=0.0597
+VFP DEBUG NORMAL agent=0 pos=(2.16,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.725,0.421) mag=12.7320
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.006) mag=0.0598
+VFP DEBUG NORMAL agent=0 pos=(2.19,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.766,0.423) mag=12.7726
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.006) mag=0.0600
+VFP DEBUG NORMAL agent=0 pos=(2.21,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.807,0.424) mag=12.8135
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.006) mag=0.0601
+VFP DEBUG NORMAL agent=0 pos=(2.24,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.848,0.425) mag=12.8547
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.006) mag=0.0603
+VFP DEBUG NORMAL agent=0 pos=(2.26,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.889,0.427) mag=12.8962
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.006) mag=0.0604
+VFP DEBUG NORMAL agent=0 pos=(2.28,0.74) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.931,0.428) mag=12.9379
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.006) mag=0.0606
+VFP DEBUG NORMAL agent=0 pos=(2.31,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(12.973,0.430) mag=12.9799
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.060,0.006) mag=0.0607
+VFP DEBUG NORMAL agent=0 pos=(2.33,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.015,0.431) mag=13.0221
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.006) mag=0.0609
+VFP DEBUG NORMAL agent=0 pos=(2.36,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.057,0.432) mag=13.0646
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.006) mag=0.0610
+VFP DEBUG NORMAL agent=0 pos=(2.38,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.100,0.434) mag=13.1075
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.006) mag=0.0612
+VFP DEBUG NORMAL agent=0 pos=(2.41,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.143,0.435) mag=13.1505
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.006) mag=0.0613
+VFP DEBUG NORMAL agent=0 pos=(2.43,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.187,0.437) mag=13.1939
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.006) mag=0.0615
+VFP DEBUG NORMAL agent=0 pos=(2.46,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.230,0.438) mag=13.2376
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.006) mag=0.0616
+VFP DEBUG NORMAL agent=0 pos=(2.48,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.274,0.439) mag=13.2815
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.061,0.006) mag=0.0618
+VFP DEBUG NORMAL agent=0 pos=(2.51,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.318,0.441) mag=13.3258
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.006) mag=0.0619
+VFP DEBUG NORMAL agent=0 pos=(2.53,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.363,0.442) mag=13.3703
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.006) mag=0.0621
+VFP DEBUG NORMAL agent=0 pos=(2.56,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.408,0.444) mag=13.4152
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.006) mag=0.0622
+VFP DEBUG NORMAL agent=0 pos=(2.58,0.75) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.453,0.445) mag=13.4603
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.006) mag=0.0624
+VFP DEBUG NORMAL agent=0 pos=(2.61,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.498,0.447) mag=13.5058
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.006) mag=0.0625
+VFP DEBUG NORMAL agent=0 pos=(2.63,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.544,0.448) mag=13.5515
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.062,0.006) mag=0.0627
+VFP DEBUG NORMAL agent=0 pos=(2.66,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.590,0.450) mag=13.5976
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.006) mag=0.0629
+VFP DEBUG NORMAL agent=0 pos=(2.68,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.637,0.451) mag=13.6440
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.006) mag=0.0630
+VFP DEBUG NORMAL agent=0 pos=(2.71,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.683,0.453) mag=13.6907
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.006) mag=0.0632
+VFP DEBUG NORMAL agent=0 pos=(2.73,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.730,0.454) mag=13.7377
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.006) mag=0.0633
+VFP DEBUG NORMAL agent=0 pos=(2.76,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.777,0.456) mag=13.7850
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.006) mag=0.0635
+VFP DEBUG NORMAL agent=0 pos=(2.78,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.825,0.457) mag=13.8327
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.006) mag=0.0636
+VFP DEBUG NORMAL agent=0 pos=(2.81,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.873,0.459) mag=13.8807
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.063,0.006) mag=0.0638
+VFP DEBUG NORMAL agent=0 pos=(2.83,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.921,0.460) mag=13.9290
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.007) mag=0.0640
+VFP DEBUG NORMAL agent=0 pos=(2.86,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(13.970,0.462) mag=13.9777
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.007) mag=0.0641
+VFP DEBUG NORMAL agent=0 pos=(2.88,0.76) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(14.019,0.464) mag=14.0267
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.007) mag=0.0643
+VFP DEBUG NORMAL agent=0 pos=(2.91,0.77) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(14.068,0.465) mag=14.0761
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.007) mag=0.0645
+VFP DEBUG NORMAL agent=0 pos=(2.93,0.77) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(14.118,0.467) mag=14.1258
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.007) mag=0.0646
+VFP DEBUG NORMAL agent=0 pos=(2.96,0.77) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(14.168,0.468) mag=14.1759
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.064,0.007) mag=0.0648
+VFP DEBUG NORMAL agent=0 pos=(2.98,0.77) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(14.219,0.470) mag=14.2263
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.007) mag=0.0649
+VFP DEBUG NORMAL agent=0 pos=(3.01,0.77) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(14.269,0.472) mag=14.2771
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.007) mag=0.0651
+Clicked: (2.93, 0.80)
+VFP DEBUG NORMAL agent=0 pos=(3.03,0.77) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(14.320,0.473) mag=14.3282
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.065,0.007) mag=0.0653
+VFP DEBUG NORMAL agent=0 pos=(3.20,0.97) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(14.684,0.072) mag=14.6841
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.066,0.008) mag=0.0662
+VFP DEBUG NORMAL agent=0 pos=(3.97,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(16.547,0.000) mag=16.5472
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.071,0.009) mag=0.0717
+VFP DEBUG NORMAL agent=0 pos=(4.83,1.03) goal=(5.00,3.00)
+  source=attract id=goal pos=(5.0, 3.0) vec=(4.257,50.230) mag=50.4104
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.078,0.010) mag=0.0788
+VFP DEBUG NORMAL agent=0 pos=(5.80,1.07) goal=(6.00,3.00)
+  source=attract id=goal pos=(6.0, 3.0) vec=(5.267,50.914) mag=51.1862
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.087,0.012) mag=0.0879
+VFP DEBUG NORMAL agent=0 pos=(6.60,1.03) goal=(8.50,1.00)
+  source=attract id=goal pos=(8.5, 1.0) vec=(52.340,-0.918) mag=52.3480
+VFP DEBUG NORMAL agent=0 pos=(7.17,0.93) goal=(9.00,1.00)
+  source=attract id=goal pos=(9.0, 1.0) vec=(54.178,1.970) mag=54.2139
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.103,0.015) mag=0.1042
+VFP DEBUG NORMAL agent=0 pos=(7.40,0.83) goal=(9.00,1.00)
+  source=attract id=goal pos=(9.0, 1.0) vec=(61.447,6.401) mag=61.7796
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.107,0.015) mag=0.1076
+VFP DEBUG NORMAL agent=0 pos=(7.60,0.77) goal=(9.50,1.00)
+  source=attract id=goal pos=(9.5, 1.0) vec=(51.580,6.334) mag=51.9676
+  source=wall id=(11.5, 1.5) pos=None vec=(-1.555,-0.292) mag=1.5825
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.110,0.015) mag=0.1106
+VFP DEBUG NORMAL agent=0 pos=(8.13,0.70) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(51.948,8.349) mag=52.6144
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.023,-0.481) mag=2.0791
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.118,0.016) mag=0.1189
+VFP DEBUG NORMAL agent=0 pos=(8.60,0.70) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(67.819,14.533) mag=69.3586
+  source=wall id=(11.5, 1.5) pos=None vec=(-2.648,-0.731) mag=2.7473
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.126,0.018) mag=0.1269
+VFP DEBUG NORMAL agent=0 pos=(8.83,0.67) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(78.597,22.456) mag=81.7426
+  source=wall id=(11.5, 1.5) pos=None vec=(-3.038,-0.949) mag=3.1825
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.130,0.018) mag=0.1312
+VFP DEBUG NORMAL agent=0 pos=(9.17,0.63) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(99.444,43.755) mag=108.6445
+  source=wall id=(11.5, 1.5) pos=None vec=(-3.752,-1.394) mag=4.0028
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.136,0.019) mag=0.1378
+VFP DEBUG NORMAL agent=0 pos=(9.47,0.57) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(111.321,90.448) mag=143.4340
+  source=wall id=(11.5, 1.5) pos=None vec=(-4.494,-2.063) mag=4.9451
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.143,0.020) mag=0.1443
+VFP DEBUG NORMAL agent=0 pos=(9.53,0.53) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(105.544,105.544) mag=149.2612
+  source=wall id=(11.5, 1.5) pos=None vec=(-4.624,-2.273) mag=5.1523
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.145,0.020) mag=0.1459
+VFP DEBUG NORMAL agent=0 pos=(9.83,0.57) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(75.689,196.792) mag=210.8459
+  source=wall id=(11.5, 1.5) pos=None vec=(-5.897,-3.302) mag=6.7588
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.151,0.022) mag=0.1526
+VFP DEBUG NORMAL agent=0 pos=(10.17,0.67) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-116.864,233.728) mag=261.3161
+  source=wall id=(11.5, 1.5) pos=None vec=(-8.405,-5.253) mag=9.9119
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.159,0.025) mag=0.1604
+VFP DEBUG NORMAL agent=0 pos=(10.30,0.70) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-162.829,162.829) mag=230.2744
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.766,-6.511) mag=11.7371
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.162,0.026) mag=0.1637
+VFP DEBUG NORMAL agent=0 pos=(10.37,0.70) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-159.989,130.900) mag=206.7158
+  source=wall id=(11.5, 1.5) pos=None vec=(-10.344,-7.302) mag=12.6618
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.163,0.026) mag=0.1655
+VFP DEBUG NORMAL agent=0 pos=(10.50,0.77) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-161.310,75.278) mag=178.0103
+  source=wall id=(11.5, 1.5) pos=None vec=(-12.697,-9.311) mag=15.7453
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.166,0.028) mag=0.1688
+VFP DEBUG NORMAL agent=0 pos=(10.48,0.78) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-168.763,78.485) mag=186.1209
+  source=wall id=(11.5, 1.5) pos=None vec=(-12.632,-8.930) mag=15.4698
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.166,0.028) mag=0.1681
+VFP DEBUG NORMAL agent=0 pos=(10.47,0.77) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-168.205,84.102) mag=188.0586
+  source=wall id=(11.5, 1.5) pos=None vec=(-12.315,-8.739) mag=15.1007
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.166,0.028) mag=0.1679
+VFP DEBUG NORMAL agent=0 pos=(10.17,1.13) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-349.479,-279.583) mag=447.5518
+  source=wall id=(11.5, 1.5) pos=None vec=(-12.285,-3.378) mag=12.7407
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.156,0.030) mag=0.1584
+VFP DEBUG NORMAL agent=0 pos=(10.15,1.13) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-374.514,-321.997) mag=493.9056
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.155,0.030) mag=0.1579
+VFP DEBUG NORMAL agent=0 pos=(10.13,1.11) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-419.267,-370.471) mag=559.4944
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.155,0.030) mag=0.1575
+VFP DEBUG NORMAL agent=0 pos=(10.11,1.10) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-483.859,-432.298) mag=648.8455
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.154,0.029) mag=0.1571
+VFP DEBUG NORMAL agent=0 pos=(10.09,1.08) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-575.795,-516.899) mag=773.7728
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.154,0.029) mag=0.1567
+VFP DEBUG NORMAL agent=0 pos=(10.07,1.06) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-712.932,-641.456) mag=959.0300
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.154,0.029) mag=0.1563
+VFP DEBUG NORMAL agent=0 pos=(10.05,1.05) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-937.126,-844.214) mag=1261.3093
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.028) mag=0.1560
+VFP DEBUG NORMAL agent=0 pos=(10.03,1.03) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-1368.106,-1233.549) mag=1842.1064
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.028) mag=0.1556
+VFP DEBUG NORMAL agent=0 pos=(10.01,1.01) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-2534.721,-2287.779) mag=3414.4900
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.028) mag=0.1552
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(4730.030,4258.036) mag=6364.2797
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5209.589,-4674.384) mag=6999.2631
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.350,-3.105) mag=9.8519
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3686.537,3299.289) mag=4947.3084
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5762.419,-5151.919) mag=7729.6668
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.334,-3.104) mag=9.8368
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3619.062,3228.890) mag=4850.0864
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5823.471,-5194.005) mag=7803.2369
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8354
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3615.995,3219.520) mag=4841.5629
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5833.624,-5192.045) mag=7809.5132
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8353
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3618.964,3215.247) mag=4840.9418
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5838.692,-5187.218) mag=7810.0932
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8353
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3621.626,3211.995) mag=4840.7733
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5844.200,-5181.082) mag=7810.1401
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8353
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3625.204,3208.033) mag=4840.8244
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5849.499,-5175.094) mag=7810.1368
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8354
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3628.364,3204.546) mag=4840.8828
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5854.189,-5169.562) mag=7809.9875
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8354
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3631.357,3201.127) mag=4840.8649
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5859.273,-5163.717) mag=7809.9328
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8354
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3634.569,3197.603) mag=4840.9463
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5863.948,-5158.176) mag=7809.7804
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8354
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3637.552,3194.176) mag=4840.9240
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5869.218,-5152.164) mag=7809.7704
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8354
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3640.918,3190.270) mag=4840.8786
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5874.881,-5145.833) mag=7809.8544
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8354
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3644.378,3186.313) mag=4840.8764
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5880.537,-5139.494) mag=7809.9364
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8354
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3647.812,3182.360) mag=4840.8620
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5885.984,-5133.303) mag=7809.9686
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8354
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3651.138,3178.448) mag=4840.7989
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5891.824,-5126.790) mag=7810.0944
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8355
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3654.680,3174.427) mag=4840.8337
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5897.056,-5120.743) mag=7810.0750
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8355
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3657.833,3170.876) mag=4840.8880
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5901.678,-5115.164) mag=7809.9110
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8355
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3660.777,3167.416) mag=4840.8485
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5907.094,-5108.946) mag=7809.9357
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8355
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3664.241,3163.407) mag=4840.8476
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5912.503,-5102.721) mag=7809.9586
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8355
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3667.479,3159.794) mag=4840.9400
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5917.103,-5097.127) mag=7809.7897
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8355
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3670.407,3156.321) mag=4840.8934
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5922.496,-5090.890) mag=7809.8090
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8355
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3673.852,3152.296) mag=4840.8842
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5928.081,-5084.485) mag=7809.8737
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8356
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3677.250,3148.285) mag=4840.8538
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5933.658,-5078.072) mag=7809.9363
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8356
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3680.661,3144.259) mag=4840.8295
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5939.227,-5071.651) mag=7809.9970
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8356
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3684.045,3140.237) mag=4840.7933
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5944.787,-5065.222) mag=7810.0556
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8356
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3687.443,3136.200) mag=4840.7631
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5950.340,-5058.785) mag=7810.1122
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8356
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3690.783,3132.481) mag=4840.9003
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5954.686,-5053.316) mag=7809.8845
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8356
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3693.519,3129.349) mag=4840.9617
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5959.026,-5047.844) mag=7809.6555
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8356
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3696.444,3125.819) mag=4840.9137
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5964.554,-5041.390) mag=7809.7067
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8357
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3699.959,3121.692) mag=4840.9359
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5969.876,-5035.091) mag=7809.7091
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8357
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3703.156,3118.013) mag=4841.0090
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5974.591,-5029.278) mag=7809.5690
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8357
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3706.145,3114.429) mag=4840.9896
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5979.697,-5023.131) mag=7809.5210
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8357
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3709.392,3110.710) mag=4841.0847
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5984.396,-5017.308) mag=7809.3777
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8357
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3712.350,3107.127) mag=4841.0516
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5989.486,-5011.150) mag=7809.3262
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8357
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3715.585,3103.398) mag=4841.1416
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5994.170,-5005.318) mag=7809.1797
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8357
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3718.553,3099.796) mag=4841.1128
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-5999.443,-4998.983) mag=7809.1712
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8358
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+VFP DEBUG NORMAL agent=0 pos=(9.99,0.99) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(3721.879,3096.005) mag=4841.2424
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.152,0.027) mag=0.1548
+VFP DEBUG NORMAL agent=0 pos=(10.00,1.00) goal=(10.00,1.00)
+  source=attract id=goal pos=(10.0, 1.0) vec=(-6003.913,-4993.307) mag=7808.9749
+  source=wall id=(11.5, 1.5) pos=None vec=(-9.333,-3.104) mag=9.8358
+  source=wall id=(22.5, -1.25) pos=None vec=(-0.153,0.027) mag=0.1550
+('Time in seconds:', 7.95)
+('Number of Packages Delivered:', 0)

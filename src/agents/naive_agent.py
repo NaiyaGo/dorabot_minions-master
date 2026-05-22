@@ -62,7 +62,15 @@ class NaiveAgent(Agent):
                     # raise Exception(" No next pose while in mobile state ")
                     self.sequence_of_poses = deque([goal_pose])
                     return
-                
+
+                # Non-mobile states (QUEUING, LOADING, PREQUEUE) that have already
+                # reached their slot should not drive the local planner — the slot
+                # destination changed (goal_changed) but the agent is already there.
+                if not self.state_machine.is_mobile_state(self.state) and \
+                        self.state_machine.arrive_at_destination(self.position, self.destination_location):
+                    self.stop()
+                    return
+
                 if self.position.distance(self.destination_location) < min(self.ray_length_list):
                     self.current_local_planner = self.local_planner[0]
                 else:
@@ -74,7 +82,7 @@ class NaiveAgent(Agent):
                             self.static_environment,
                             self.perception_module,
                             self.sequence_of_poses)
-                self.linear_velocity = act 
+                self.linear_velocity = act
                 # if act[0] > self.cruise_speed:
                 #     act[0] = self.cruise_speed
                 # if act[1] > self.max_angular_velocity:

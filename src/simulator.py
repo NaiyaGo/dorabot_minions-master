@@ -19,6 +19,7 @@ from local_planners.rvo_planner import RVOPlanner
 from local_planners.DD_planner import DDPlanner
 from local_planners.hrvo_planner import HRVOPlanner
 from local_planners.flc_local_planner import FLCPlanner
+from local_planners.VFP import VFP
 from global_planners.global_planner import MapType
 from global_planners.sample_global_planner import SimpleAStar
 from global_planners.layered_astar_planner import LayeredAStar
@@ -29,6 +30,7 @@ from multiagent_global_planners.marrtstar_planner import MARRTStar
 from multiagent_global_planners.inash_planner import INashRRT
 from multiagent_global_planners.cbs_planner import CBSPlanner
 from multiagent_global_planners.ecbs_planner import ECBSPlanner
+from multiagent_global_planners.ecbsnew_planner import ECBSNewPlanner
 from representation.gridmap_a import GridmapWithNeighbors
 from visualisation import Visualisation
 from math import *

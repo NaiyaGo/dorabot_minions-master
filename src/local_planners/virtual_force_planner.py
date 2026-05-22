@@ -21,7 +21,7 @@ import time
 
 # Debugging configuration: enable detailed per-agent force logging for selected agent ids
 DEBUG_FORCE_LOG = True
-DEBUG_AGENT_IDS = set([2, 3, 5])
+DEBUG_AGENT_IDS = set()
 # Log file will be placed in ../logs relative to this file
 DEBUG_LOG_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'logs', 'virtual_force_debug.log'))
 
